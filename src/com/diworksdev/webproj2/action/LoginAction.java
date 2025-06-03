@@ -30,7 +30,7 @@ public class LoginAction extends ActionSupport{
 		return password;
 		}
 
-	public void setPsaaword(String password){
+	public void setPassword(String password){
 		this.password = password;
 		}
 	}
