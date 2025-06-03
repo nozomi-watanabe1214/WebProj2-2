@@ -9,9 +9,12 @@
 
  <action name="HelloStrutsAction" class="com.diworksdev.webproj2.action.HelloStrutsAction"
  method="execute">
- <result name="success">hello.jsp</result>
- <result name="error">helloStrutsError.jsp</result>
+ 	<result name="success">hello.jsp</result>
+ 	<result name="error">helloStrutsError.jsp</result>
  </action>
+ <action name="WelcomeAction" class="com.diworksdev.webproj2.action.WelcomeAction" method="execute">
+	<result name="success">welcome.jsp</result>
+</action>
 
  </package>
  </struts>
